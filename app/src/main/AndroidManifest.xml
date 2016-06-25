@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amit_saxena.eventhandlingapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".DatePickerDialogExample"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ViewEventHandlingWithListeners"
+            android:label="@string/title_activity_view_event_hadling_with_listeners" >
+        </activity>
+
+        <!--
+        <activity
+            android:name=".listview.ListActivityExample"
+            android:label="@string/title_activity_list_activity_example" >
+        </activity>
+        -->
+        <!--
+        <activity
+            android:name=".listview.CustomListView"
+            android:label="@string/title_activity_custom_list_view" >
+        </activity>
+        -->
+        <!--
+        <activity
+            android:name=".listview.ListActivitySample"
+            android:label="@string/title_activity_list_activity_sample" >
+        </activity>
+        -->
+        <!--
+        <activity
+            android:name=".DatePickerDialog"
+            android:label="@string/title_activity_date_picker_dialog" >
+        </activity>
+        -->
+        <!--<activity
+            android:name=".TimePickerDialogExample"
+            android:label="@string/title_activity_time_picker_dialog_example" >
+        </activity>-->
+    </application>
+
+</manifest>
